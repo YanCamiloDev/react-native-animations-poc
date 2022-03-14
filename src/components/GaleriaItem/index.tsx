@@ -78,5 +78,3 @@ const styles = StyleSheet.create({
     padding: 10,
   },
 });
-
-// 79,88 + 57,5 + 20,615 + 21,395 + 200 = 379
