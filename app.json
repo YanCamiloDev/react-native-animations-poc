@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "exercicio",
-    "slug": "exercicio",
+    "name": "react-native-animations-poc",
+    "slug": "react-native-animations-poc",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
