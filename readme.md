@@ -11,7 +11,6 @@
 - 🚀 React Reanimated V2
 - 🚀 Moti
 
-#
 
-## Tela de inspiração
+## Inspiração
 https://twitter.com/i/status/1426029861001433092
