@@ -3,8 +3,7 @@ import { StyleSheet, View, FlatList, Text } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { GaleriaItem } from '../GaleriaItem';
 import Button from '../Button';
-import { AnimatePresence, MotiScrollView, MotiView } from 'moti';
-import Animated from 'react-native-reanimated';
+import { MotiView } from 'moti';
 
 const DATA = [
   {
