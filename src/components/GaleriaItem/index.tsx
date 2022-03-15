@@ -1,14 +1,7 @@
 import React from 'react';
 import { StyleSheet, TouchableOpacityProps } from 'react-native';
 import { MotiImage, MotiView } from 'moti';
-import {
-  FadeIn,
-  FadeInUp,
-  LightSpeedInLeft,
-  SlideInDown,
-  SlideInRight,
-  SlideInUp,
-} from 'react-native-reanimated';
+import { SlideInUp } from 'react-native-reanimated';
 
 export interface Galeria {
   img: string;
@@ -36,7 +29,7 @@ export function GaleriaItem({ img, index, ...rest }: GaleriaProps) {
       }}
     >
       <MotiImage
-        entering={FadeInUp.duration(1850)}
+        entering={SlideInUp.duration(1850)}
         source={{ uri: img }}
         style={styles.image}
         // from={{
