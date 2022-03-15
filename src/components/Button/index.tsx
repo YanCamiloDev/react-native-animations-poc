@@ -1,12 +1,18 @@
 import * as React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 
-export default function Button({ yel, text }: { yel: boolean; text: string }) {
+export default function Button({
+  yellow,
+  text,
+}: {
+  yellow: boolean;
+  text: string;
+}) {
   return (
     <TouchableOpacity
       style={{
         borderRadius: 20,
-        backgroundColor: !yel ? '#fff' : '#FFF601',
+        backgroundColor: !yellow ? '#fff' : '#FFF601',
         paddingHorizontal: 20,
         paddingVertical: 10,
       }}

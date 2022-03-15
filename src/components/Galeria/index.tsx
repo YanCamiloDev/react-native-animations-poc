@@ -131,8 +131,8 @@ export function Galeria() {
                   marginTop: 50,
                 }}
               >
-                <Button yel={false} text={'Log in'} />
-                <Button yel={true} text={'Sing up'} />
+                <Button yellow={false} text={'Log in'} />
+                <Button yellow={true} text={'Sing up'} />
               </View>
             </MotiView>
           </MotiView>
